@@ -1,0 +1,40 @@
+### Part 1
+Task 2:
+
+Question 2: 
+input: enwiki_test.xml 
+Single Node, replication factor: 2, block size: 128MB, 
+spark.executor.cores: 4, spark.driver.cores: 4, spark.executor.memory: 5g, spark.driver.memory: 1g
+
+Question 3:
+input: enwiki_test.xml 
+3 Nodes(2 workers), replication factor: 2, block size: 128MB, 
+spark.executor.cores: 4, spark.driver.cores: 4, spark.executor.memory: 5g, spark.driver.memory: 1g
+
+Question 4:
+input: enwiki_test.xml 
+3 Nodes(2 workers), replication factor: 2, block size: 64MB, 
+spark.executor.cores: 4, spark.driver.cores: 4, spark.executor.memory: 5g, spark.driver.memory: 1g
+
+Question 5:
+1.
+input: enwiki_whole.xml 
+3 Nodes(2 workers), replication factor: 2, block size: 128MB, 
+spark.executor.cores: 4, spark.driver.cores: 4, spark.executor.memory: 5g, spark.driver.memory: 5g
+
+2. 
+input: enwiki_whole.xml 
+3 Nodes(1 worker), replication factor: 2, block size: 128MB, 
+spark.executor.cores: 4, spark.driver.cores: 4, spark.executor.memory: 5g, spark.driver.memory: 5g
+
+Question 6:
+input: enwiki_whole.xml 
+3 Nodes(2 workers), replication factor: 1, block size: 128MB, 
+spark.executor.cores: 4, spark.driver.cores: 4, spark.executor.memory: 5g, spark.driver.memory: 5g
+
+Question 7:
+input: enwiki_whole.xml 
+3 Nodes(2 workers), replication factor: 2, block size: 64MB, 
+spark.executor.cores: 4, spark.driver.cores: 4, spark.executor.memory: 5g, spark.driver.memory: 5g
+
+

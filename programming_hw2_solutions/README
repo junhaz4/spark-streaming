@@ -1,0 +1,26 @@
+Ans 1: Answer: 128MB, 2.
+
+Ans 2: The run time was about 3 min and 48 sec.
+
+Ans 3: The run time was around 2 min 33 seconds. The 3 node cluster have 2 worker nodes so it has more processing power.
+
+Ans 4: Run time is about 2 min 22 seconds. The performance should be around the same. Since the file itself is small and the change of number of blocks is not that big. So the influence of increased number of operation might not be clear
+
+Ans 5: The run time is around 25 minutes 55 sec, and 56 minutes when one machines is killed
+There is only one worker left so essentially there is only half of the computing power envolved.
+
+Ans 6: The completion time is 30 min 25 sec
+The run time should increase since for each file, there is only one copy left and HDFS effectively is only using one machine.
+
+Ans 7: The run time is about 29 min 43 second.
+In theory, the run time should get worse since there are more blocks for each file. So it is possible there are more communication between Namenode and the workers are needed.
+The number of metadata also decreased.
+
+Ans 8: Should take around 25 mins to 120 mins depending on the complexity of the implementation.
+
+Ans 9: About 1.2 million rows.
+
+Ans 10: This design could be more efficient than connecting Emitter and Receiver through files because harddisk IO (or IO from buckets through the network) could be potentially slow and would cause huge overhead.
+But if data are sent throught TCP sockets, data might not be persisted and the process would not be blocked by disk operations.
+
+Ans 11: Many hours! 
